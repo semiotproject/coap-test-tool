@@ -5,7 +5,8 @@
   "description": "Simple load testing tool for CoAP server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "launch-get": "node index.js --type get",    
+    "launch-observe": "node index.js --type observe"
   },
   "author": "SemIoT project",
   "license": "ISC",

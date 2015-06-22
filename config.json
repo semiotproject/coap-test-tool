@@ -1,5 +1,7 @@
 {
 	"serverHostname": "vs0.inf.ethz.ch",
 	"serverPort": "5683",
-	"serverPath": "/obs-non"
+	"serverPath": "/obs-non",
+	"heartbeat": 1000,
+	"count": 2
 }

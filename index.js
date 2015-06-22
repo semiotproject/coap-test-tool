@@ -92,17 +92,17 @@ function init() {
             return;
         }
 
-        var count = argv.count;
+        var count = config.count;
         if (!count) {
-            logger.warn('no --count provided; aborting..');
+            logger.warn('no count provided; aborting..');
             return;
         }
 
         var heartbeat;
         if (type === 'get') {
-            heartbeat = argv.heartbeat;
+            heartbeat = config.heartbeat;
             if (!heartbeat) {
-                logger.warn('no --heartbeat in ms between requests provided for GET-test; aborting..');
+                logger.warn('no heartbeat in ms between requests provided for GET-test; aborting..');
                 return;
             }
         }
