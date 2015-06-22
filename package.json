@@ -1,0 +1,19 @@
+{
+  "name": "coap-test-client",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Simple load testing tool for CoAP server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SemIoT project",
+  "license": "ISC",
+  "dependencies": {
+    "coap": "^0.9.1"
+  },
+  "devDependencies": {
+    "yargs": "^3.12.0",
+    "tracer": "^0.7.4"
+  }
+}
