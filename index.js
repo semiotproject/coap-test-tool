@@ -41,7 +41,7 @@ function performObserve(reqConfig, index) {
 
     r.on('response', function(res) {
         res.on('data', function(message) {
-            logger.info('client #' + index + ', observation received; code: ' + res.code);
+            logger.info('client #' + index + ', observation received; code: ' + res.code + ', payload: ' + res.payload);
         });
     });
 

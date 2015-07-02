@@ -1,7 +1,7 @@
 {
-	"serverHostname": "vs0.inf.ethz.ch",
+	"serverHostname": "SERVER_HOSTANME",
 	"serverPort": "5683",
-	"serverPath": "/obs-non",
+	"serverPath": "/dht_sensor/humidity",
 	"heartbeat": 1000,
 	"count": 2
 }
